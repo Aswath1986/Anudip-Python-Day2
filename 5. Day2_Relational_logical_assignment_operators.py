@@ -4,15 +4,15 @@
 # Show what has been tried in tomorrow's class
 
 # --- Inputs ---
-item_price = 450
-quantity = 3
+item_price = 500
+quantity = 5
 is_member = True
 coupon_code = "SAVE10"
 
 # --- Arithmetic: compute the bill ---
-subtotal = item_price * quantity            # 1350
-tax = subtotal * 18 / 100                   # 243.0
-bill = subtotal + tax                       # 1593.0
+subtotal = item_price * quantity            # 2500
+tax = subtotal * 18 / 100                   # 450.0
+bill = subtotal + tax                       # 2950.0
 print("Subtotal:", subtotal)
 print("Tax (18%):", tax)
 print("Bill before discount:", bill)
@@ -35,3 +35,10 @@ bill //= 1           # floor to whole rupees/dollars
 bill += 0            # no-op, shows += works on floats too
 
 print("Final bill:", bill)      
+
+# output:
+# Subtotal: 2500
+# Tax (18%): 450.0
+# Bill before discount: 2950.0
+# Big order: True
+# Final bill: 2655.0
