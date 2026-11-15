@@ -1,18 +1,19 @@
-print ("This is my first program")
-#print("Hello World")
 
-#myName = "Aswath Venkatesan"
-#myName = input("Enter the name of the user : ")
-#print("Hello ", "\"", myName, "\"")
-#print(f"Hello  \"{myName}\", \n your lucky number is {5 * 5}")
+print("This is my first program")
+# print("Hello World")
 
-#address_identity = id(myName)
-#print(f"Address of the user saved location {address_identity}")
+# user_name = "Sherin Ruffia"
+# user_name = input("Enter the name of the user : ")
+# print("Hello ", "\"", user_name, "\"")
+# print(f"Hello \"{user_name}\", \n your lucky number is {5 * 5}")
 
-# binary , hexadecimal, decimal
-# 
-print(bin(5)) 
+# user_identity = id(user_name)
+# print(f"Address of the user saved location {user_identity}")
+
+# binary, hexadecimal, decimal
+
+print(bin(5))
 print(hex(10))
 
-print(ord('C'), " ", ord('F') )  # to know the ascii value of a english character
-print(chr(122), chr(91)) #to know the character assigned for this number
+print(ord('C'), " ", ord('F'))  # To know the ASCII value of an English character
+print(chr(122), chr(91))  # To know the character assigned for this number
