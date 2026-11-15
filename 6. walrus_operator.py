@@ -1,13 +1,14 @@
-#Try out in home before 12.Nov.2026
+
+# Try out at home before 12.Nov.2026
 
 secret_pin = "4321"
-#entered_num = input("Enter PIN: ")
+# user_entered_pin = input("Enter PIN: ")
 
-#while entered_num != secret_pin:
+# while user_entered_pin != secret_pin:
 
-while (entered_num := input("Enter PIN: ")) != secret_pin:  
-#both assignment of input to entered_num and return the value to larger expression
+while (user_entered_pin := input("Enter PIN: ")) != secret_pin:
+    # Both assignment of input to user_entered_pin and return the value to larger expression
     print("Wrong PIN, try again")
-    entered_num = input("Enter PIN: ")
+    user_entered_pin = input("Enter PIN: ")
 
 print("Access granted")

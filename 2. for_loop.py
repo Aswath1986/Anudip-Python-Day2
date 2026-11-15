@@ -1,13 +1,16 @@
-countOfStudents =  int(input("Enter the number of students in the class : "))
 
-studentName = []
-for index in range(countOfStudents):
-    name = input(f"Enter the name of Student {index+1} : ")
-    studentName.append(name)
+number_of_students = int(input("Enter the number of students in the class : "))
 
-studentName.pop()
-print(studentName)
-for printIndex in range(len(studentName)):
-    print(f"Student {printIndex+1} : {studentName[printIndex]}")
+student_names = []
 
-#print(studentName[len(studentName)-1])
+for student_index in range(number_of_students):
+    student_name = input(f"Enter the name of Student {student_index+1} : ")
+    student_names.append(student_name)
+
+student_names.pop()
+print(student_names)
+
+for print_index in range(len(student_names)):
+    print(f"Student {print_index+1} : {student_names[print_index]}")
+
+# print(student_names[len(student_names)-1])
