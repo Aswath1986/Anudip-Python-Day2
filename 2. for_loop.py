@@ -1,13 +1,16 @@
-countOfStudents =  int(input("Enter the number of students in the class : "))
+# Python Loop Practice
 
-studentName = []
-for index in range(countOfStudents):
-    name = input(f"Enter the name of Student {index+1} : ")
-    studentName.append(name)
+# 1. Print numbers from 1 to 10
+print("Numbers from 1 to 10:")
+for i in range(1, 11):
+    print(i)
 
-studentName.pop()
-print(studentName)
-for printIndex in range(len(studentName)):
-    print(f"Student {printIndex+1} : {studentName[printIndex]}")
+# 2. Print even numbers
+print("\nEven numbers:")
+for i in range(2, 21, 2):
+    print(i)
 
-#print(studentName[len(studentName)-1])
+# 3. Sum of numbers using while loop
+total = 0
+num = 1
+
